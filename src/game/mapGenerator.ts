@@ -41,7 +41,7 @@ function placeSolidWalls(grid: Grid): void {
   }
 }
 
-export function generateMap(seed?: number): Grid {
+export function generateMap(_seed?: number): Grid {
   // (seed sera utile plus tard pour du random déterministe)
   const grid = createEmptyGrid();
 
